@@ -14,8 +14,6 @@
 </head>
 
 <body class="skin-blue">
-<!--Renders all the references that the admin template makes use of in the body-->
-<%= render partial: 'layouts/admin_template_body_references' %>
-<%= yield %>
+  <%= render partial: 'layouts/admin_body_partial.html.erb' %>
 </body>
 </html>
