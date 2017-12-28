@@ -7,5 +7,13 @@ Rails.application.routes.draw do
 
   namespace 'admin' do
     root 'landing_page#index'
+
+
+
+
+    controller :admin_users do
+      get 'users' => :index
+    end
+
   end
 end
