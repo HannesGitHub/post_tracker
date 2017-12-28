@@ -190,13 +190,18 @@ $.AdminLTE.layout = {
     var sidebar_height = $(".sidebar").height();
     //Set the min-height of the content and sidebar based on the
     //the height of the document.
+      alert("0");
     if ($("body").hasClass("fixed")) {
+      alert("1");
       $(".content-wrapper, .right-side").css('min-height', window_height - $('.main-footer').outerHeight());
     } else {
+        alert("2");
       if (window_height >= sidebar_height) {
         $(".content-wrapper, .right-side").css('min-height', window_height - neg);
+          alert("3");
       } else {
         $(".content-wrapper, .right-side").css('min-height', sidebar_height);
+          alert("4");
       }
     }
   },
