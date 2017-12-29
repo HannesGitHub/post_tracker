@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
     controller :admin_users do
       get 'users' => :index
+      get 'users/new' => :new
     end
 
   end
