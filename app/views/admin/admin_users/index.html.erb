@@ -19,9 +19,9 @@
       <div class="box">
         <div class="box-header">
           <h3 class="box-title">List all users</h3>
-        </div><!-- /.box-header -->
+        </div>
         <div class="box-body">
-          <table id="example2" class="table table-bordered table-hover">
+          <table id="default-table" class="table table-bordered table-hover">
             <thead>
             <tr>
               <th>Name</th>
@@ -46,14 +46,11 @@
             </tr>
             </tfoot>
           </table>
+          <div class="button-section">
+            <a href="users/new" class="btn btn-block btn-success">Add user</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<script type="text/javascript">
-    $(function () {
-        $("#example2").dataTable();
-    });
-</script>

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+/* Styling for the button section in each page (Add/cancel ect...)*/
+.button-section{
+    width:100%;
+}
+.button-section .btn{
+    width: 100px;
+}

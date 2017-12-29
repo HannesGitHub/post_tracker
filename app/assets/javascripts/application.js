@@ -15,3 +15,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+//Datatables instantiation
+$(function () {
+    $("#default-table").dataTable();
+});
