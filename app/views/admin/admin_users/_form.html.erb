@@ -1,4 +1,3 @@
-<!-- Main content -->
 <section class="content">
   <div class="row">
     <div class="col-xs-12">
@@ -7,22 +6,25 @@
           <h3 class="box-title"><%= @description %></h3>
         </div>
         <div class="box-body">
-          <%= form_for @user, url: '/admin/admin_users/create' do |user| %>
-              <div class="form-group">
+          <%= form_for @user, url: '/admin/users/create' do |user| %>
+              <div class="form-group <%= error_class(@user.errors.messages[:name]) %>">
                 <label>Name</label>
+                <%= error_message(@user.errors.messages[:name]) %>
                 <%= user.text_field :name, class: 'form-control', placeholder: 'Enter name' %>
               </div>
-              <div class="form-group">
+              <div class="form-group <%= error_class(@user.errors.messages[:surname]) %>">
                 <label>Last name</label>
+                <%= error_message(@user.errors.messages[:surname]) %>
                 <%= user.text_field :surname, class: 'form-control', placeholder: 'Enter last name' %>
               </div>
-
-              <div class="form-group">
+              <div class="form-group <%= error_class(@user.errors.messages[:username]) %>">
                 <label>Email address</label>
+                <%= error_message(@user.errors.messages[:surname]) %>
                 <%= user.text_field :username, class: 'form-control', placeholder: 'Enter email', type: 'email' %>
               </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+              <div class="form-group <%= error_class(@user.errors.messages[:password]) %>">
+                <label>Password</label>
+                <%= error_message(@user.errors.messages[:password]) %>
                 <%= user.text_field :password, class: 'form-control', placeholder: 'Enter password', type: 'password' %>
               </div>
               <div class="button-section">
