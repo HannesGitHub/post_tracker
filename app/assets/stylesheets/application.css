@@ -18,6 +18,16 @@
 .button-section{
     width:100%;
 }
-.button-section .btn{
+.button-section button{
+    margin-top:0px;
     width: 100px;
+    display: inline-block;
+}
+.button-section a{
+    margin-top:0px;
+    width: 100px;
+    display: inline-block;
+}
+.button-section .btn-cancel{
+    float:right;
 }
