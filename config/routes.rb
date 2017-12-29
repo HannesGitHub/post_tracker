@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     controller :admin_users do
       get 'users' => :index
       get 'users/new' => :new
+      post 'users/create' => :create
     end
 
   end

@@ -4,7 +4,12 @@ class Admin::AdminUsersController < Admin::BaseAdminController
   end
 
   def new
+    @description = 'Add user'
     @user = User.new
+  end
+
+  def create
+    test = 3
   end
 
 
