@@ -1,0 +1,50 @@
+.bg-container{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height:100vh;
+  background-image: image-url('law.jpg');
+  background-size: cover;
+}
+
+.signup-card{
+  padding: 10px;
+  width:350px;
+  height:300px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-150px 0 0 -175px;
+  background-color:white;
+  //Border
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+}
+.signup-card h4{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.signup-card input{
+  width: 100%;
+  padding: 12px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.signup-card button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

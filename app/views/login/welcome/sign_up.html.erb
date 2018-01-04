@@ -1,0 +1,18 @@
+<div class="bg-container">
+  <div class="signup-card">
+    <%= form_for @user, url: '/request_signup' do |u| %>
+        <h4>First name</h4>
+        <%= u.text_field :name, placeholder: 'Enter first name' %>
+        <h4 class="signup-title">Last name</h4>
+        <%= u.text_field :surname, placeholder: 'Enter last name' %>
+        <h4 class="signup-title">Email</h4>
+        <%= u.text_field :username, placeholder: 'Enter email address' %>
+        <button type="submit" class="btn btn-block btn-success">Request account</button>
+    <% end %>
+  </div>
+</div>
+
+
+<%= stylesheet_link_tag 'sign_up' %>
+
+

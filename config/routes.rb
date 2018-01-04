@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
   root 'login/welcome#landing'
+
+  scope module: 'login' do
+    get 'sign_up', to: 'welcome#sign_up'
+    post 'request_signup', to: 'welcome#request_signup'
+    get 'sign_up_successful', to: 'welcome#signup_successfull_and_pending'
+  end
   namespace 'login' do
 
   end
@@ -10,5 +16,8 @@ Rails.application.routes.draw do
       get 'users/new' => :new
       post 'users/create' => :create
     end
+  end
+  namespace 'users' do
+
   end
 end
