@@ -21,7 +21,7 @@ class Login::WelcomeController < ApplicationController
   end
 
   def signup_successfull_and_pending
-
+    render layout: false
   end
 
   private
