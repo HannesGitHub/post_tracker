@@ -7,9 +7,9 @@
         <label class="<%= error_class(@user.errors.messages[:surname]) %>">Last name</label>
         <%= error_message(@user.errors.messages[:surname]) %>
         <%= u.text_field :surname, placeholder: 'Enter last name' %>
-        <label class="<%= error_class(@user.errors.messages[:username]) %>">Email</label>
-        <%= error_message(@user.errors.messages[:username]) %>
-        <%= u.text_field :username, placeholder: 'Enter email address' %>
+        <label class="<%= error_class(@user.errors.messages[:email]) %>">Email</label>
+        <%= error_message(@user.errors.messages[:email]) %>
+        <%= u.text_field :email, placeholder: 'Enter email address' %>
         <button type="submit" class="btn btn-block btn-success">Request account</button>
     <% end %>
   </div>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'login/welcome#landing'
 
   scope module: 'login' do

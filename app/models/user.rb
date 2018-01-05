@@ -1,4 +1,8 @@
 class User < ApplicationRecord
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable
 
   before_create :generate_auth_token
 
@@ -6,7 +10,7 @@ class User < ApplicationRecord
 
   validates :name,
             :surname,
-            :username,
+            :email,
             presence: true
 
   scope :active, -> { where(is_active: true) }

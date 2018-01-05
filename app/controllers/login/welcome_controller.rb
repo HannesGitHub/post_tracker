@@ -13,6 +13,7 @@ class Login::WelcomeController < ApplicationController
     @user.is_signup_request = true #Flag user as signup request
     if @user.save
       # Saves successfully
+      @user.send_reset_password_instructions
       redirect_to action: :signup_successfull_and_pending
     else
       # Error saving user
@@ -26,6 +27,6 @@ class Login::WelcomeController < ApplicationController
 
   private
   def user_params
-    params.require(:user).permit(:name, :surname, :username)
+    params.require(:user).permit(:name, :surname, :email)
   end
 end
