@@ -17,10 +17,10 @@
                 <%= error_message(@user.errors.messages[:surname]) %>
                 <%= user.text_field :surname, class: 'form-control', placeholder: 'Enter last name' %>
               </div>
-              <div class="form-group <%= error_class(@user.errors.messages[:username]) %>">
+              <div class="form-group <%= error_class(@user.errors.messages[:email]) %>">
                 <label>Email address</label>
-                <%= error_message(@user.errors.messages[:surname]) %>
-                <%= user.text_field :username, class: 'form-control', placeholder: 'Enter email', type: 'email' %>
+                <%= error_message(@user.errors.messages[:email]) %>
+                <%= user.text_field :email, class: 'form-control', placeholder: 'Enter email', type: 'email' %>
               </div>
               <div class="form-group <%= error_class(@user.errors.messages[:password]) %>">
                 <label>Password</label>
