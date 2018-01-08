@@ -10,7 +10,21 @@
         <!--Password-->
         <label class="<%= error_class(@user.errors.messages[:password]) %>">Password</label>
         <%= error_message(@user.errors.messages[:password]) %>
-        <%= u.text_field :password, placeholder: 'Enter password' %>
+        <%= u.password_field :password, placeholder: 'Enter password' %>
+
+        <!--Flash error-->
+        <% if @invalid %>
+            <div>
+              <label class="control-label">Unauthorized, please sign in again.</label>
+            </div>
+        <% end %>
+        <!--Invalid username or password-->
+        <% if flash[:invalid_details] %>
+            <div>
+              <label class="control-label">Invalid username or password.</label>
+            </div>
+        <% end %>
+
 
         <button type="submit" class="btn btn-block btn-success">Sign in</button>
     <% end %>

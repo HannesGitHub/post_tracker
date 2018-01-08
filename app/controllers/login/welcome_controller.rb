@@ -12,6 +12,10 @@ class Login::WelcomeController < ApplicationController
   end
 
   def sign_in
+    if flash[:unauthorized]
+      @invalid = true
+    end
+
     @user = User.new
     render layout: false
   end
@@ -24,6 +28,7 @@ class Login::WelcomeController < ApplicationController
       if user_params[:remember_token]
       #   remember me was ticked
         @user.remember_token = encrypt_token(token)
+        @user.remember_token = ""
         @user.save
         redirect_to '/admin/users'
       else
@@ -32,6 +37,8 @@ class Login::WelcomeController < ApplicationController
     else
     #   Unauthorized
     #   Todo: redirect to another invalid page or same page with message ect...
+      flash[:invalid_details] = true
+      redirect_to action: :sign_in
     end
   end
 

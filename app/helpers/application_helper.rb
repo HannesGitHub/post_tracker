@@ -15,4 +15,8 @@ module ApplicationHelper
       display_errors.html_safe
     end
   end
+
+  def flash_error
+
+  end
 end

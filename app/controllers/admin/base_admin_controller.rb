@@ -10,12 +10,10 @@ class Admin::BaseAdminController < ApplicationController
     token = cookies.permanent[:remember_token]
     encrypted_token = BCrypt::Engine.hash_secret(token, SALT_VAL)
     @user = User.find_by(remember_token: encrypted_token)
-    if @user
-    #   User valid from cookie
-      test = 3
-    else
-    # User not valid from cookie
-      test = 3
+    if !@user
+    #   User was not valid from cookie, redirect
+      flash[:unauthorized] = true
+      redirect_to '/sign_in'
     end
   end
 
