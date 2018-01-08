@@ -13,7 +13,7 @@
         <%= u.password_field :password, placeholder: 'Enter password' %>
 
         <!--Flash error-->
-        <% if @invalid %>
+        <% if flash[:unauthorized] %>
             <div>
               <label class="control-label">Unauthorized, please sign in again.</label>
             </div>
