@@ -1,5 +1,8 @@
 class User < ApplicationRecord
 
+  include UserModule
+  include EmailModule
+
   before_create :generate_auth_token
 
   # Make sure what this validations does otherwise remove it

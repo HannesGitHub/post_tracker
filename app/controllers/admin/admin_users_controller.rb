@@ -27,7 +27,10 @@ class Admin::AdminUsersController < Admin::BaseAdminController
   end
 
   def approve
-    test = 3
+    user = User.find(params[:id])
+    user.generate_email_token
+    user.email_token_to_user
+
   end
 
   private
