@@ -20,6 +20,8 @@ Rails.application.routes.draw do
       get 'users' => :index
       get 'users/new' => :new
       post 'users/create' => :create
+      get 'users/:id/show' => :show
+      get 'users/:id/approve' => :approve
     end
   end
   namespace 'users' do

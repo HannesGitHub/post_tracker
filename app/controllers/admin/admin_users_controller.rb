@@ -3,6 +3,9 @@ class Admin::AdminUsersController < Admin::BaseAdminController
     @users = User.all.active
   end
 
+  def test
+    render 'show'
+  end
   def new
     @description = 'Add user'
     @user = User.new
@@ -17,6 +20,14 @@ class Admin::AdminUsersController < Admin::BaseAdminController
     # Error saving user
     render 'new'
     end
+  end
+
+  def show
+    @user = User.find(params[:id])
+  end
+
+  def approve
+    test = 3
   end
 
   private

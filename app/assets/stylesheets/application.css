@@ -31,3 +31,7 @@
 .button-section .btn-cancel{
     float:right;
 }
+
+.button-section div{
+    height:35px;
+}
