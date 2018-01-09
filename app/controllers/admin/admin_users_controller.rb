@@ -30,7 +30,7 @@ class Admin::AdminUsersController < Admin::BaseAdminController
     user = User.find(params[:id])
     user.generate_email_token
     user.email_token_to_user
-
+    redirect_to "/admin/users/#{params[:id]}/show"
   end
 
   private
