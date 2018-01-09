@@ -16,8 +16,8 @@ module PostTracker
 
 
     # See this link: http://guides.rubyonrails.org/action_mailer_basics.html
-    config.action_mailer.default_url_options = { host: 'example.com' }
-    config.action_mailer.asset_host = 'http://example.com'
+    config.action_mailer.default_url_options = { host: 'localhost:3000' }
+    config.action_mailer.asset_host = 'localhost:3000'
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

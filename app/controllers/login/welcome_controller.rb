@@ -37,6 +37,20 @@ class Login::WelcomeController < ApplicationController
     end
   end
 
+  def confirm_account
+    user = User.find_by(account_activation_token: params[:token])
+    # Todo: Add check to see if the time has expired and the user cannot activate their account anymore. Have a look at the account_activation_token_expiration_date field in the db.
+    # Todo: Make sure that the someone cannot just navigate to this path with empty param :token and still authorize a user.
+    user.is_signup_request = false
+    user.account_activation_token = nil
+    user.save
+    redirect_to confirmation_successful_url
+  end
+
+  def confirmation_successful
+    render layout: false
+  end
+
   def request_signup
     @user = User.new(user_params)
     @user.is_signup_request = true #Flag user as signup request
