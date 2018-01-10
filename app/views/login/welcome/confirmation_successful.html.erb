@@ -2,6 +2,7 @@
   <div class="signup-card">
     <%= form_for @user, url: '/set_password' do |u| %>
         <%= u.hidden_field(:id) %>
+        <h1>Choose password</h1>
         <!--Password-->
         <label class="<%= error_class(@user.errors.messages[:password]) %>">Password</label>
         <%= error_message(@user.errors.messages[:password]) %>
