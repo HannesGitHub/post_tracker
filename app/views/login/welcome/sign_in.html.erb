@@ -1,6 +1,7 @@
 <div class="bg-container">
   <div class="signup-card">
     <%= form_for @user, url: '/authenticate' do |u| %>
+        <h1>Sign in</h1>
         <%= u.hidden_field :remember_token, value: true %>
         <!--Email-->
         <label class="<%= error_class(@user.errors.messages[:email]) %>">Email</label>

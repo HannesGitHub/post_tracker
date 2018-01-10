@@ -1,6 +1,7 @@
 <div class="bg-container">
   <div class="signup-card">
     <%= form_for @user, url: '/request_signup' do |u| %>
+        <h1>Sign up</h1>
         <label class="<%= error_class(@user.errors.messages[:name]) %>">First name</label>
         <%= error_message(@user.errors.messages[:name]) %>
         <%= u.text_field :name, placeholder: 'Enter first name' %>
@@ -10,7 +11,7 @@
         <label class="<%= error_class(@user.errors.messages[:email]) %>">Email</label>
         <%= error_message(@user.errors.messages[:email]) %>
         <%= u.text_field :email, placeholder: 'Enter email address' %>
-        <button type="submit" class="btn btn-block btn-success">Request account</button>
+        <button type="submit" class="btn btn-block btn-success">Sign up</button>
     <% end %>
   </div>
 </div>
