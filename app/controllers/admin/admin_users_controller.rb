@@ -19,6 +19,21 @@ class Admin::AdminUsersController < Admin::BaseAdminController
     end
   end
 
+  def edit
+    @description = 'Edit user'
+    @user = User.find(params[:id])
+  end
+
+  def update
+    @user = User.find(user_params[:id])
+    if @user.update_attributes(user_params)
+      redirect_to admin_users_url
+    else
+      @description = 'Edit user'
+      render 'edit'
+    end
+  end
+
   def show
     @user = User.find(params[:id])
   end
@@ -32,6 +47,6 @@ class Admin::AdminUsersController < Admin::BaseAdminController
 
   private
   def user_params
-    params.require(:user).permit(:name, :surname, :email, :password)
+    params.require(:user).permit(:id, :name, :surname, :email, :password)
   end
 end

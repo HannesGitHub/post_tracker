@@ -6,7 +6,8 @@
           <h3 class="box-title"><%= @description %></h3>
         </div>
         <div class="box-body">
-          <%= form_for @user, url: '/admin/users/create' do |user| %>
+          <%= form_for @user, url: @description == 'Edit user' ? '/admin/users/update' : '/admin/users/create' do |user| %>
+              <%= user.hidden_field :id %>
               <div class="form-group <%= error_class(@user.errors.messages[:name]) %>">
                 <label>Name</label>
                 <%= error_message(@user.errors.messages[:name]) %>
@@ -21,11 +22,6 @@
                 <label>Email address</label>
                 <%= error_message(@user.errors.messages[:email]) %>
                 <%= user.text_field :email, class: 'form-control', placeholder: 'Enter email', type: 'email' %>
-              </div>
-              <div class="form-group <%= error_class(@user.errors.messages[:password]) %>">
-                <label>Password</label>
-                <%= error_message(@user.errors.messages[:password]) %>
-                <%= user.text_field :password, class: 'form-control', placeholder: 'Enter password', type: 'password' %>
               </div>
               <div class="button-section">
                 <button type="submit" class="btn btn-success">Save</button>

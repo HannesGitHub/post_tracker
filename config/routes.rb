@@ -23,6 +23,8 @@ Rails.application.routes.draw do
       post 'users/create' => :create
       get 'users/:id/show' => :show
       get 'users/:id/approve' => :approve
+      get 'user/:id/edit' => :edit, as: 'edit_user'
+      patch 'users/update' => :update
     end
   end
   namespace 'users' do

@@ -41,7 +41,7 @@
                       <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/admin/users/<%= user.id %>/show" title="View">
                         <i class="ace-icon fa fa-eye bigger-120"></i>
                       </a>
-                      <a class="btn btn-xs btn-success btn-fill" type="button" href="/area/" data-toggle="tooltip" title="Edit">
+                      <a class="btn btn-xs btn-success btn-fill" type="button" href=<%= admin_edit_user_path(user.id) %> data-toggle="tooltip" title="Edit">
                         <i class="ace-icon fa fa-pencil bigger-120"></i>
                       </a>
                       <a class="btn btn-xs btn-danger btn-fill" type="button" href="/area" data-toggle="tooltip" title="Delete">
