@@ -25,6 +25,7 @@ Rails.application.routes.draw do
       get 'users/:id/approve' => :approve
       get 'user/:id/edit' => :edit, as: 'edit_user'
       patch 'users/update' => :update
+      get 'users/:id/delete' => :delete, as: 'delete_user'
     end
   end
   namespace 'users' do

@@ -19,3 +19,8 @@
 $(function () {
     $("#default-table").dataTable();
 });
+
+$(document).on('click', '.confirm-delete', function(){
+    var delete_link = $(this).attr('delete-link');
+    $('#modal-delete-button').attr('href', delete_link);
+});

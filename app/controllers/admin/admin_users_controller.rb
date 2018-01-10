@@ -45,6 +45,13 @@ class Admin::AdminUsersController < Admin::BaseAdminController
     redirect_to "/admin/users/#{params[:id]}/show"
   end
 
+  def delete
+    user = User.find(params[:id])
+    user.is_active = false
+    user.save
+    redirect_to admin_users_path
+  end
+
   private
   def user_params
     params.require(:user).permit(:id, :name, :surname, :email, :password)

@@ -44,9 +44,9 @@
                       <a class="btn btn-xs btn-success btn-fill" type="button" href=<%= admin_edit_user_path(user.id) %> data-toggle="tooltip" title="Edit">
                         <i class="ace-icon fa fa-pencil bigger-120"></i>
                       </a>
-                      <a class="btn btn-xs btn-danger btn-fill" type="button" href="/area" data-toggle="tooltip" title="Delete">
+                        <button type="button" class="btn btn-xs btn-danger btn-fill confirm-delete" data-toggle="modal" data-target="#myModal" delete-link=<%= admin_delete_user_path(id: user.id) %>>
                         <i class="ace-icon fa fa-trash-o bigger-120"></i>
-                      </a>
+                      </button>
                     </div>
                   </td>
                 </tr>
