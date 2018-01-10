@@ -8,10 +8,10 @@
 
 if User.count == 0
   User.create({
-                  name: 'Hannes',
+                  name: 'Admin',
                   surname: 'van Tonder',
                   is_active: true,
-                  email: 'hannesvantonder@gmail.com',
+                  email: 'admin@gmail.com',
                   password: 'P@ssw0rd'
               })
 

@@ -5,6 +5,8 @@ class User < ApplicationRecord
 
   before_create :generate_auth_token
 
+  attr_accessor :confirm_password
+
   # Make sure what this validations does otherwise remove it
   has_secure_password validations: false
 

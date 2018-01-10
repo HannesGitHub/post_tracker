@@ -44,11 +44,26 @@ class Login::WelcomeController < ApplicationController
     user.is_signup_request = false
     user.account_activation_token = nil
     user.save
-    redirect_to confirmation_successful_url
+
+    redirect_to confirmation_successful_url(id: user.id)
   end
 
   def confirmation_successful
+    @user = User.find(params[:id])
     render layout: false
+  end
+
+  def set_password
+    @user = User.find(user_password_confirm_params[:id])
+    if user_password_confirm_params[:password] == user_password_confirm_params[:confirm_password]
+      @user.password = user_password_confirm_params[:password]
+      @user.save
+      redirect_to sign_in_url
+    else
+      #   Passwords doesn't match
+      flash[:passwords_no_match] = true
+      render 'confirmation_successful', layout: false
+    end
   end
 
   def request_signup
@@ -91,7 +106,11 @@ class Login::WelcomeController < ApplicationController
   end
 
   def user_params
-    params.require(:user).permit(:name, :surname, :email, :password, :remember_token)
+    params.require(:user).permit(:id, :name, :password, :surname, :email, :remember_token)
+  end
+
+  def user_password_confirm_params
+    params.require(:user).permit(:id, :password, :confirm_password)
   end
 
 end

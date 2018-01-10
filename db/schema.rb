@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20180109191309) do
     t.string "email"
     t.string "remember_token"
     t.string "account_activation_token"
-    t.string "account_activation_token_generation_date"
+    t.datetime "account_activation_token_generation_date"
   end
 
 end

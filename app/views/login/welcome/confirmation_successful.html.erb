@@ -1,1 +1,28 @@
-<h1>Confirmation successful</h1>
+<div class="bg-container">
+  <div class="signup-card">
+    <%= form_for @user, url: '/set_password' do |u| %>
+        <%= u.hidden_field(:id) %>
+        <!--Password-->
+        <label class="<%= error_class(@user.errors.messages[:password]) %>">Password</label>
+        <%= error_message(@user.errors.messages[:password]) %>
+        <%= u.password_field :password, placeholder: 'Enter password' %>
+
+        <!--Confirm password-->
+        <label class="<%= error_class(@user.errors.messages[:confirm_password]) %>">Password</label>
+        <%= error_message(@user.errors.messages[:confirm_password]) %>
+        <%= u.password_field :confirm_password, placeholder: 'Enter password' %>
+
+        <!--Flash error-->
+        <% if flash[:passwords_no_match] %>
+            <div>
+              <label class="control-label">Passwords did not match, try again.</label>
+            </div>
+        <% end %>
+
+        <button type="submit" class="btn btn-block btn-success">Confirm</button>
+    <% end %>
+  </div>
+</div>
+
+<%= stylesheet_link_tag 'logged_out' %>
+<%= stylesheet_link_tag 'sign_in' %>
