@@ -1,11 +1,8 @@
 class Admin::AdminUsersController < Admin::BaseAdminController
   def index
-    @users = User.all.active
+    @users = User.active_scope
   end
 
-  def test
-    render 'show'
-  end
   def new
     @description = 'Add user'
     @user = User.new

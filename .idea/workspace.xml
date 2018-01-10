@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8530d327-3102-41c0-9a8f-d9efdadc385a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login/welcome/confirmation_successful.html.erb" afterPath="$PROJECT_DIR$/app/views/login/welcome/confirmation_successful.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,6 +24,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="welcome_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/login/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,21 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confirmation_successful.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/login/welcome/confirmation_successful.html.erb">
+      <file leaf-file-name="admin_users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup_successfull_and_pending.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/login/welcome/signup_successfull_and_pending.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="237">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -56,7 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>file</find>
       <find>bcry</find>
       <find>bcrypt</find>
       <find>Rails.application.config.assets.p</find>
@@ -86,6 +107,7 @@
       <find>example.com</find>
       <find>confirm_account</find>
       <find>flash</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>draw_columns</replace>
@@ -128,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/lib/modules/emails_module.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb" />
         <option value="$PROJECT_DIR$/lib/modules/email_module.rb" />
         <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
@@ -138,8 +159,6 @@
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.text.erb" />
         <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/login/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sign_up.scss" />
@@ -149,6 +168,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/logged_out.scss" />
         <option value="$PROJECT_DIR$/app/views/login/welcome/signup_successfull_and_pending.html.erb" />
         <option value="$PROJECT_DIR$/app/views/login/welcome/confirmation_successful.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb" />
       </list>
     </option>
   </component>
@@ -321,10 +343,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,51 +358,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post_tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post_tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post_tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post_tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,6 +377,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,7 +453,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -709,12 +705,12 @@
       <workItem from="1515332420683" duration="11823000" />
       <workItem from="1515356782126" duration="6274000" />
       <workItem from="1515518862304" duration="6583000" />
-      <workItem from="1515537639826" duration="3972000" />
+      <workItem from="1515537639826" duration="4610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61372000" />
+    <option name="totallyTimeSpent" value="62010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,14 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1056,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1076,14 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1136,10 +1108,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/login/welcome/confirmation_successful.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/admin_users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1152,10 +1132,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login/welcome/confirmation_successful.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
