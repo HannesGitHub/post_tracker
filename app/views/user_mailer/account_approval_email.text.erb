@@ -1,13 +1,13 @@
 
-Welcome to localhost, <%= @user.name %>
+Welcome to PostTrack, <%= @user.name %>
 ===============================================
 
-You have successfully signed up to localhost,
+You have successfully signed up to PostTrack,
 your username is: <%= @user.name %>.
 
-To login to the site, just follow this link: <%= @url %>.
-<%= link_to 'welcome', confirm_account_url(token: @user.account_activation_token) %>
+To set up a password and to log in to the site, just follow this link:
+<%= confirm_account_url(token: @user.account_activation_token.present? ? @user.account_activation_token.present? : 'invalid') %>.
+
 Thanks for joining and have a great day!
-Test:
 
 
