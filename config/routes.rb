@@ -27,6 +27,10 @@ Rails.application.routes.draw do
       patch 'users/update' => :update
       get 'users/:id/delete' => :delete, as: 'delete_user'
     end
+
+    controller :admin_dashboard do
+      get 'dashboard' => :index
+    end
   end
   namespace 'users' do
 

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8530d327-3102-41c0-9a8f-d9efdadc385a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/admin_dashboard_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/admin_dashboard/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.html.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.text.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.text.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_admin_body_footer_partial.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_admin_body_footer_partial.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_admin_body_header_partial.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_admin_body_header_partial.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_admin_body_sidebar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_admin_body_sidebar.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_admin_template_body_test.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_admin_template_body_test.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/js/demo.js" afterPath="$PROJECT_DIR$/public/dist/js/demo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -25,22 +30,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="account_approval_email.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_approval_email.html.erb">
+      <file leaf-file-name="_admin_body_header_partial.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_header_partial.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_approval_email.text.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_approval_email.text.erb">
+      <file leaf-file-name="_admin_body_footer_partial.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_footer_partial.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="60">
+              <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+              <folding>
+                <element signature="e#81#87#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_admin_template_body_test.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_template_body_test.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="835" column="47" lean-forward="true" selection-start-line="835" selection-start-column="47" selection-end-line="835" selection-end-column="47" />
+              <folding>
+                <marker date="1516041044622" expanded="false" signature="7573:7583" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="8343:8353" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="9114:9124" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="9892:9902" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="23031:23046" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="25602:25636" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="25718:25752" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="37018:37123" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="38316:38334" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="38734:38761" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="38987:39018" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="39263:39294" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="40604:40618" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="40845:40876" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="41217:41248" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="43599:43610" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="44225:44236" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="44619:44630" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="45118:45129" ph="..." />
+                <marker date="1516041044622" expanded="false" signature="45512:45523" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +86,28 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="450">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_dashboard_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_dashboard_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_admin_body_sidebar.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_sidebar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -59,36 +117,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>precompile</find>
-      <find>padding</find>
-      <find>z-in</find>
-      <find>radius</find>
-      <find>`username</find>
-      <find>username</find>
-      <find>sign_up</find>
-      <find>encrypt_token</find>
-      <find>rails</find>
-      <find>generate_token</find>
-      <find>plication.config.assets.precom</find>
-      <find>redirect_to action: :signup_successfull_and_pending</find>
-      <find>re</find>
-      <find>redirect_to</find>
-      <find>cook</find>
-      <find>r</find>
-      <find>plugins/datatables/dataTables.</find>
-      <find>ocalhost:3000/admin/plugins/datatables/</find>
-      <find>http://localhost:3000/admin/plugins/datatables/dataTables.bootstrap.css</find>
-      <find>dmin/plugins/datatables/dataTables.bootstrap.css</find>
-      <find>es/dataTables.bootstrap.css</find>
-      <find>button-secti</find>
-      <find>e</find>
-      <find>example.com</find>
-      <find>confirm_account</find>
-      <find>flash</find>
-      <find>test</find>
       <find>confirm-delete</find>
       <find>url</find>
       <find>confirm</find>
+      <find>dashboard</find>
+      <find>Alexander Pierce</find>
+      <find>o</find>
+      <find>online</find>
+      <find>admin</find>
+      <find>admin_body_sideba</find>
+      <find>admin_body_sidebar</find>
+      <find>AdminLt</find>
+      <find>AdminLte</find>
+      <find>Admin</find>
+      <find>Copyright ©</find>
+      <find>Copyrigh ©</find>
+      <find>©</find>
+      <find>©</find>
+      <find>C</find>
+      <find>Copyright</find>
+      <find>ll rights reser</find>
+      <find>pull-right hidden-xs</find>
+      <find>\&lt;ul class\=\&quot;treeview\-menu\&quot;\&gt;\n            \&lt;li\&gt;\&lt;a href\=\&quot;pages\/layout\/top\-nav\.html\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-circle\-o\&quot;\&gt;\&lt;\/i\&gt; Top Navigation\&lt;\/a\&gt;\&lt;\/li\&gt;\n            \&lt;li\&gt;\&lt;a href\=\&quot;pages\/layout\/boxed\.html\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-circle\-o\&quot;\&gt;\&lt;\/i\&gt; Boxed\&lt;\/a\&gt;\&lt;\/li\&gt;\n            \&lt;li\&gt;\&lt;a href\=\&quot;pages\/layout\/fixed\.html\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-circle\-o\&quot;\&gt;\&lt;\/i\&gt; Fixed\&lt;\/a\&gt;\&lt;\/li\&gt;\n            \&lt;li\&gt;\&lt;a href\=\&quot;pages\/layout\/collapsed\-sidebar\.html\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-circle\-o\&quot;\&gt;\&lt;\/i\&gt; Collapsed Sidebar\&lt;\/a\&gt;\&lt;\/li\&gt;\n          \&lt;\/ul\&gt;</find>
+      <find>l</find>
+      <find>layout o</find>
+      <find>layout op</find>
+      <find>layout optio</find>
+      <find>layout option</find>
+      <find>layout options</find>
+      <find>no-print open</find>
+      <find>Layout Options</find>
     </findStrings>
     <replaceStrings>
       <replace>draw_columns</replace>
@@ -101,16 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/admin/admin_users/update.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/admin_users/new.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20171228145458_create_users.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20171229134726_set_is_active_users.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20171229142349_password_digest.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/sign_up.css" />
-        <option value="$PROJECT_DIR$/db/migrate/20180104195256_add_request_flag_to_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/login/sessions.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180107142002_fix_username_to_email.rb" />
         <option value="$PROJECT_DIR$/app/controllers/login/sessions_controller.rb" />
@@ -144,7 +192,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/admin_users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/admin_users/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin_layout.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/admin_users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_delete_confirmation_modal.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -152,6 +199,17 @@
         <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.text.erb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_approval_email.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/admin_dashboard_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/dashboard/dashboard.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/admin_dashboard/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_admin_body_partial.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_admin_body_sidebar.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_admin_body_header_partial.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_admin_body_footer_partial.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_admin_template_body_test.html.erb" />
+        <option value="$PROJECT_DIR$/public/dist/js/demo.js" />
       </list>
     </option>
   </component>
@@ -328,8 +386,26 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user_mailer" />
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,22 +426,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="post_tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post_tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,7 +445,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,7 +485,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,12 +774,12 @@
       <workItem from="1515332420683" duration="11823000" />
       <workItem from="1515356782126" duration="6274000" />
       <workItem from="1515518862304" duration="6583000" />
-      <workItem from="1515537639826" duration="8464000" />
+      <workItem from="1515537639826" duration="10853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65864000" />
+    <option name="totallyTimeSpent" value="68253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,7 +804,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5685358" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42056075" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42056075" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -755,67 +847,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20171228145458_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login/welcome/landing.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180104195256_add_request_flag_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180107142002_fix_username_to_email.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/login/sessions_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180107144403_add_remember_token.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/classes/authenticateble.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1056,22 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_admin_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin_layout.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_delete_confirmation_modal.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1100,10 +1115,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/landing_page_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="780">
           <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_admin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1116,26 +1147,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin_layout.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_approval_email.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="270">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_approval_email.text.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_approval_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/admin_dashboard/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_partial.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_dashboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_header_partial.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_footer_partial.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding>
+            <element signature="e#81#87#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_template_body_test.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="835" column="47" lean-forward="true" selection-start-line="835" selection-start-column="47" selection-end-line="835" selection-end-column="47" />
+          <folding>
+            <marker date="1516041044622" expanded="false" signature="7573:7583" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="8343:8353" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="9114:9124" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="9892:9902" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="23031:23046" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="25602:25636" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="25718:25752" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="37018:37123" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="38316:38334" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="38734:38761" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="38987:39018" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="39263:39294" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="40604:40618" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="40845:40876" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="41217:41248" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="43599:43610" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="44225:44236" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="44619:44630" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="45118:45129" ph="..." />
+            <marker date="1516041044622" expanded="false" signature="45512:45523" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1516041186888" expanded="true" signature="977:1048" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="2308:2365" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="2447:2521" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="2565:2618" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="2677:2751" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="2773:2847" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="3169:3226" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="3302:3337" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="3369:3443" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="3465:3539" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="3598:3669" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="3691:3765" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="4091:4148" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="4230:4283" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="4348:4401" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="4460:4534" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="4556:4630" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="4956:5013" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="5095:5148" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="5211:5264" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="5323:5397" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="5419:5493" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="5815:5872" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="5954:6007" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="6066:6119" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="6178:6252" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="6274:6348" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="6672:6729" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="6811:6864" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="6929:6982" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="7041:7115" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="7137:7211" ph="..." />
+            <marker date="1516041186888" expanded="true" signature="7428:7499" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_admin_body_sidebar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
