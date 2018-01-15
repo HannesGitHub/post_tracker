@@ -14,9 +14,10 @@
   </head>
 
   <body class="skin-blue">
-  <!--Renders all the references that the admin template makes use of in the body-->
-    <%= render partial: 'layouts/admin_template_body_references' %>
-    <%= render partial: 'layouts/admin_template_body_test' %>
-    <%= yield %>
+
+  <!--Render layouts here-->
+  <%= render partial: 'layouts/delete_confirmation_modal.html.erb' %>
+  <%= render partial: 'layouts/application_body_partial.html.erb' %>
+  <%= render partial: 'layouts/application_template_body_references' %>
   </body>
 </html>

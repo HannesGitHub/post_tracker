@@ -26,6 +26,7 @@
               <th>Surname</th>
               <th>Email</th>
               <th>Approved</th>
+              <th>Is admin</th>
               <th>Actions</th>
             </tr>
             </thead>
@@ -36,6 +37,7 @@
                   <td><%= user.surname %></td>
                   <td><%= user.email %></td>
                   <td><%= user.is_signup_request ? 'No' : 'Yes' %></td>
+                  <td><%= user.is_admin ? 'Yes' : 'No' %></td>
                   <td>
                     <div class="btn-group">
                       <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/admin/users/<%= user.id %>/show" title="View">
@@ -58,6 +60,7 @@
               <th>Surname</th>
               <th>Email</th>
               <th>Approved</th>
+              <th>Is admin</th>
               <th>Actions</th>
             </tr>
             </tfoot>

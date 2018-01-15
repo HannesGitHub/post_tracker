@@ -23,6 +23,12 @@
                 <%= error_message(@user.errors.messages[:email]) %>
                 <%= user.text_field :email, class: 'form-control', placeholder: 'Enter email', type: 'email' %>
               </div>
+              <div class="form-group <%= error_class(@user.errors.messages[:is_admin]) %>">
+                <label>Admin</label>
+                <%= error_message(@user.errors.messages[:is_admin]) %>
+                <%= user.check_box :is_admin, class: 'form-control'%>
+              </div>
+
               <div class="button-section">
                 <button type="submit" class="btn btn-success">Save</button>
                 <a href="/admin/users" class="btn btn-danger btn-cancel">Cancel</a>

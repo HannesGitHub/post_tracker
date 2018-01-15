@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <header class="main-header">
+    <%= render partial: 'layouts/application_body_header_partial' %>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <%= render partial: 'layouts/application_body_sidebar' %>
+  </aside>
+
+  <!-- Right side column. Contains the navbar and content of the page -->
+  <div class="content-wrapper">
+    <%= yield %>
+  </div><!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <%= render partial: 'layouts/application_body_footer_partial' %>
+  </footer>
+</div><!-- ./wrapper -->
+
+

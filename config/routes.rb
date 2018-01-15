@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'login/welcome#landing'
+  root 'login/welcome#sign_in'
 
   scope module: 'login' do
     get 'sign_in', to: 'welcome#sign_in'
@@ -33,6 +33,6 @@ Rails.application.routes.draw do
     end
   end
   namespace 'users' do
-
+    root 'users_dashboard#index'
   end
 end
