@@ -16,8 +16,8 @@ module PostTracker
 
 
     # See this link: http://guides.rubyonrails.org/action_mailer_basics.html
-    config.action_mailer.default_url_options = { host: 'alocalhost:3000' }
-    config.action_mailer.asset_host = 'alocalhost:3000'
+    config.action_mailer.default_url_options = { host: Figaro.env.website_domain }
+    config.action_mailer.asset_host = Figaro.env.website_domain
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
