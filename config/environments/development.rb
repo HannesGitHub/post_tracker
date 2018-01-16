@@ -27,7 +27,7 @@ Rails.application.configure do
   end
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
 
@@ -57,7 +57,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
       port:                 587,
-      domain:               Figaro.env.website_domain,
+      domain:               'localhost:3000',
       user_name:            Figaro.env.email_server_user_name,
       password:             Figaro.env.email_server_password,
       authentication:       'plain',
