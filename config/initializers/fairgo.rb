@@ -1,1 +1,1 @@
-Figaro.require_keys("email_server_user_name", "email_server_password")
+Figaro.require_keys("email_server_user_name", "email_server_password", "website_domain")
