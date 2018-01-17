@@ -48,7 +48,7 @@
   border-radius: 5px;
   margin-top: 10px;
 }
-.signup-card a{
+.signup-card a:not(.skip-styling){
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
