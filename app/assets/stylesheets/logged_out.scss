@@ -4,7 +4,7 @@
   left:0;
   width: 100vw;
   height:100vh;
-  background-image: image-url('law.jpg');
+  background-image: image-url('background-image.jpg');
   background-size: cover;
 }
 
@@ -71,4 +71,24 @@
 
 .new_user{
   margin-bottom:0px;
+}
+
+@font-face {
+  font-family: 'Open sans bold';
+  font-weight: normal;
+  font-style: normal;
+  src: font-url('OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Open sans regular';
+  font-weight: normal;
+  font-style: normal;
+  src: font-url('OpenSans-Regular.ttf');
+}
+
+h1{
+  font-family: 'Open sans bold';
+}
+body{
+  font-family: 'Open sans regular';
 }

@@ -10,9 +10,14 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
+ //*= require_tree .
+ //*= require_self
  */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Rubik');
+
 
 /* Styling for the button section in each page (Add/cancel ect...)*/
 .button-section{
@@ -35,3 +40,21 @@
 .button-section div{
     height:35px;
 }
+
+
+
+
+//@font-face {
+//  font-family: 'Source Sans Pro';
+//  font-weight: normal;
+//  font-style: normal;
+//  src: font-url('SourceSansPro-Regular.eot');
+//  src: font-url('SourceSansPro-Regular.eot?#iefix') format('embedded-opentype')
+//}
+//body{
+//  font-family: "Source Sans Pro", Arial, sans-serif;
+//}
+//h1 {
+//  color:red;
+//  font-family: 'Source Sans Pro';
+//}
