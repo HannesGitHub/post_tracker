@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8530d327-3102-41c0-9a8f-d9efdadc385a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -43,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="81" column="30" lean-forward="true" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -93,16 +102,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logged_out.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/logged_out.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,9 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>no-print open</find>
-      <find>Layout Options</find>
-      <find>admin_users_url</find>
       <find>postgres</find>
       <find>the application owner check the logs for more inf</find>
       <find>rails-default-error-pag</find>
@@ -153,10 +149,13 @@
       <find>law.jp</find>
       <find>paths</find>
       <find>law.jpg</find>
-      <find>font-face</find>
       <find>config.assets.enabled = true</find>
       <find>sidekiq1</find>
       <find>sidekiq</find>
+      <find>font-face</find>
+      <find>d</find>
+      <find>development</find>
+      <find>development:</find>
     </findStrings>
     <replaceStrings>
       <replace>draw_columns</replace>
@@ -312,7 +311,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="procfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Procfile&#10;gemfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;proc&#9;FILE&#9;file:///Applications/RubyMine.app/Contents/rubystubs24/proc.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/capybara-2.16.1/lib/capybara/config.rb&#10;.env&#9;null&#9;null&#10;database.yml&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/database.yml&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;production.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;development&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;layout/&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/views/layouts&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
+    <property name="SearchEverywhereHistoryKey" value="production&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;procfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Procfile&#10;gemfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;proc&#9;FILE&#9;file:///Applications/RubyMine.app/Contents/rubystubs24/proc.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/capybara-2.16.1/lib/capybara/config.rb&#10;.env&#9;null&#9;null&#10;database.yml&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/database.yml&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;production.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;development&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;layout/&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/views/layouts&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -568,12 +567,12 @@
       <workItem from="1515518862304" duration="6583000" />
       <workItem from="1515537639826" duration="13241000" />
       <workItem from="1516128187166" duration="46000" />
-      <workItem from="1516128237478" duration="12807000" />
+      <workItem from="1516128237478" duration="13041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83494000" />
+    <option name="totallyTimeSpent" value="83728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +585,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1280" height="708" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3352181" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -596,7 +594,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39252338" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39252338" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42056075" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -852,14 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="73" column="6" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1034,6 +1024,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="81" column="30" lean-forward="true" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
           <folding />
         </state>
       </provider>
