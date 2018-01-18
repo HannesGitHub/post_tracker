@@ -1,15 +1,9 @@
 module EmailModule
 
   def email_token_to_user
-    token = self.generate_email_token
-
-    test = 3
-    # Use .deliver_now to send it immediately in a cronjob.
-    UserMailer.account_approval_email(self).deliver_now
-    # UserMailer.account_approval_email(self).deliver_later
-
-
-
+    # Email worker performs the email task in the background.
+    # If you want to debug, take the UserMailer out of the EmailWorker and it will run synchronously.
+    EmailWorker.perform_async(UserMailer.account_approval_email(self).deliver_now)
   end
 
 end

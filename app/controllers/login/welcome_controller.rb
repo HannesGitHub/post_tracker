@@ -100,13 +100,7 @@ class Login::WelcomeController < ApplicationController
   end
 
   def encrypt_token(token)
-
      BCrypt::Engine.hash_secret(token, SALT_VAL)
-
-
-    # key   = ActiveSupport::KeyGenerator.new('password').generate_key(token, 32) # => "\x89\xE0\x156\xAC..."
-    # crypt = ActiveSupport::MessageEncryptor.new(key)                           # => #<ActiveSupport::MessageEncryptor ...>
-    # encrypted_data = crypt.encrypt_and_sign('my secret data')                  # => "NlFBTTMwOUV5UlA1QlNEN2xkY2d6eThYWWh..."
   end
 
   def user_params

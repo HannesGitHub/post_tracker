@@ -31,6 +31,9 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 # Use figaro to handle sensitive information.
 gem 'figaro'
 
+# Sidekiq for background workers
+gem 'sidekiq'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
