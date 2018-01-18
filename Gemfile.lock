@@ -199,6 +199,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.4)
+  redis
   sass-rails (~> 5.0)
   selenium-webdriver
   sidekiq

@@ -31,6 +31,9 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 # Use figaro to handle sensitive information.
 gem 'figaro'
 
+# Redis
+gem 'redis'
+
 # Sidekiq for background workers
 gem 'sidekiq'
 
