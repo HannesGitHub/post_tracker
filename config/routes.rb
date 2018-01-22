@@ -32,7 +32,14 @@ Rails.application.routes.draw do
       get 'dashboard' => :index
     end
   end
+
   namespace 'users' do
     root 'users_dashboard#index'
+  end
+
+  namespace 'track_more' do
+    controller :track_more do
+      post 'trackmore_webhook' => :webhook_received
+    end
   end
 end
