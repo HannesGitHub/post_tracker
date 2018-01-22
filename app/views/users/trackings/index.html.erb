@@ -1,0 +1,63 @@
+<section class="content-header">
+  <h1>
+    Trackings
+    <small>
+      <!--Put text here if you want it to display small-->
+    </small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="/users"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">Trackings</li>
+  </ol>
+</section>
+
+<section class="content">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box">
+        <div class="box-header">
+          <h3 class="box-title">List all trackings</h3>
+        </div>
+        <div class="box-body">
+          <table id="default-table" class="table table-bordered table-hover">
+            <thead>
+            <tr>
+              <th>Tracking number</th>
+              <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% @trackings.each do |tracking| %>
+                <tr>
+                  <td><%= tracking.tracking_number %></td>
+                  <td>
+                    <div class="btn-group">
+                      <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="View">
+                        <i class="ace-icon fa fa-eye bigger-120"></i>
+                      </a>
+                      <a class="btn btn-xs btn-success btn-fill" type="button" href=<%= users_edit_tracking_path(tracking.id) %> data-toggle="tooltip" title="Edit">
+                        <i class="ace-icon fa fa-pencil bigger-120"></i>
+                      </a>
+                      <button type="button" class="btn btn-xs btn-danger btn-fill confirm-delete" data-toggle="modal" data-target="#myModal" delete-link=<%= users_delete_tracking_path(id: tracking.id) %>>
+                        <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+            <% end %>
+            </tbody>
+            <tfoot>
+            <tr>
+              <th>Tracking number</th>
+              <th>Actions</th>
+            </tr>
+            </tfoot>
+          </table>
+          <div class="button-section">
+            <a href="/users/trackings/new" class="btn btn-block btn-success">Add tracking</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

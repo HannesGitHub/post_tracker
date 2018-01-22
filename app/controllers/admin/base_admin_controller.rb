@@ -14,6 +14,9 @@ class Admin::BaseAdminController < ApplicationController
     #   User was not valid from cookie, redirect
       flash[:unauthorized] = true
       redirect_to '/sign_in'
+    else
+      # Sets the cookie to be able to use it throughout the system.
+      cookies[:active_user_id] = @user.id
     end
   end
 

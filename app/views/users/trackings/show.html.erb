@@ -1,0 +1,37 @@
+<section class="content-header">
+  <h1>
+    Tracking
+    <small>
+      <!--Put text here if you want it to display small-->
+    </small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="/users"><i class="fa fa-dashboard"></i>Home</a></li>
+    <li class="active">Tracking</li>
+  </ol>
+</section>
+<section class="content">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box">
+        <div class="box-body">
+          <div class="row">
+            <div class="col-md-3">
+              Tracking number
+            </div>
+            <div class="col-md-3">
+              <%= @tracking.tracking_number %>
+            </div>
+          </div>
+
+          </br>
+          <div class="button-section">
+            <div>
+              <a href="/users/trackings" class="btn btn-danger btn-cancel float-right">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
