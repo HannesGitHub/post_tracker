@@ -45,9 +45,8 @@ class Users::TrackingsController < Users::BaseUsersController
     redirect_to users_trackings_url
   end
 
-
   private
   def tracking_params
-    params.require(:tracking).permit(:id, :tracking_number, :user_id, :is_active)
+    params.require(:tracking).permit(:id, :tracking_number, :user_id, :is_active, :description)
   end
 end

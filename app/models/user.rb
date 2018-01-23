@@ -5,6 +5,8 @@ class User < ApplicationRecord
 
   before_create :generate_auth_token
 
+  has_many :trackings
+
   attr_accessor :confirm_password
   scope :active_scope, -> { where(is_active: true).where.not(email: 'admin@gmail.com') }
 

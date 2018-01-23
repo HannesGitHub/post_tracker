@@ -23,6 +23,7 @@
             <thead>
             <tr>
               <th>Tracking number</th>
+              <th>Description</th>
               <th>Actions</th>
             </tr>
             </thead>
@@ -30,6 +31,7 @@
             <% @trackings.each do |tracking| %>
                 <tr>
                   <td><%= tracking.tracking_number %></td>
+                  <td><%= tracking.description %></td>
                   <td>
                     <div class="btn-group">
                       <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="View">
@@ -49,6 +51,7 @@
             <tfoot>
             <tr>
               <th>Tracking number</th>
+              <th>Description</th>
               <th>Actions</th>
             </tr>
             </tfoot>

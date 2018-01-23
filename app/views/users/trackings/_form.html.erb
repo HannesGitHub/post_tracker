@@ -14,6 +14,11 @@
                 <%= error_message(@tracking.errors.messages[:tracking_number]) %>
                 <%= tracking.text_field :tracking_number, class: 'form-control', placeholder: 'Enter tracking number' %>
               </div>
+              <div class="form-group <%= error_class(@tracking.errors.messages[:description]) %>">
+                <label>Description</label>
+                <%= error_message(@tracking.errors.messages[:description]) %>
+                <%= tracking.text_field :description, class: 'form-control', placeholder: 'Enter description' %>
+              </div>
               <div class="button-section">
                 <button type="submit" class="btn btn-success">Save</button>
                 <a href="/users/trackings" class="btn btn-danger btn-cancel">Cancel</a>
