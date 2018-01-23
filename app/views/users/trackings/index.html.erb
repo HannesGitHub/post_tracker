@@ -24,6 +24,8 @@
             <tr>
               <th>Tracking number</th>
               <th>Description</th>
+              <th>Api status</th>
+              <th>Latest tracking status</th>
               <th>Actions</th>
             </tr>
             </thead>
@@ -32,6 +34,8 @@
                 <tr>
                   <td><%= tracking.tracking_number %></td>
                   <td><%= tracking.description %></td>
+                  <td><%= tracking.tracking_status %></td>
+                  <td><%= tracking.latest_status %></td>
                   <td>
                     <div class="btn-group">
                       <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="View">
@@ -52,6 +56,8 @@
             <tr>
               <th>Tracking number</th>
               <th>Description</th>
+              <th>Api status</th>
+              <th>Latest tracking status</th>
               <th>Actions</th>
             </tr>
             </tfoot>

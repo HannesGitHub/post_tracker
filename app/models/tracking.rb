@@ -9,4 +9,16 @@ class Tracking < ApplicationRecord
             presence: true
 
 
+  def update_tracking_status(status)
+    self.tracking_status = status
+    self.save
+  end
+
+  def set_latest_status_if_applicable(status)
+    if !status.blank?
+      self.latest_status = "#{status[:status_description]} - #{status[:details]}"
+      self.save
+    end
+  end
+
 end

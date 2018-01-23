@@ -6,6 +6,8 @@ class Users::TrackingsController < Users::BaseUsersController
   def create
     @tracking = Tracking.new(tracking_params)
     if @tracking.save
+      # Register tracking on trackmore website and handle response that is received from trackmore website.
+      track_more_api.register_tracking(tracking_params[:tracking_number], @tracking)
       # Saves successfully
       redirect_to action: :index
     else

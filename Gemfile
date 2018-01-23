@@ -34,6 +34,9 @@ gem 'figaro'
 # Redis
 gem 'redis'
 
+# Httparty
+gem 'httparty'
+
 # Sidekiq for background workers
 gem 'sidekiq'
 
