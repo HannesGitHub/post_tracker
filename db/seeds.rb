@@ -12,7 +12,8 @@ if User.count == 0
                   surname: 'van Tonder',
                   is_active: true,
                   email: 'admin@gmail.com',
-                  password: 'P@ssw0rd'
+                  password: 'P@ssw0rd',
+                  is_admin: true
               })
 
 end

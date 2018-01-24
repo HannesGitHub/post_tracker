@@ -41,7 +41,6 @@ ActiveRecord::Schema.define(version: 20180123205413) do
     t.string "account_activation_token"
     t.datetime "account_activation_token_generation_date"
     t.boolean "is_admin", default: false
-    t.string "description"
   end
 
   add_foreign_key "trackings", "users"

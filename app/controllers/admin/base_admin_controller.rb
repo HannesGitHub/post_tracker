@@ -12,11 +12,14 @@ class Admin::BaseAdminController < ApplicationController
     @user = User.find_by(remember_token: encrypted_token)
     if !@user
     #   User was not valid from cookie, redirect
-      flash[:unauthorized] = true
-      redirect_to '/sign_in'
+      redirect_unauthorized
     else
-      # Sets the cookie to be able to use it throughout the system.
-      cookies[:active_user_id] = @user.id
+      if !@user.is_admin?
+        redirect_unauthorized
+      else
+        # Sets the cookie to be able to use it throughout the system.
+        cookies[:active_user_id] = @user.id
+      end
     end
   end
 

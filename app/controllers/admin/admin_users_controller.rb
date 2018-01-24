@@ -12,6 +12,8 @@ class Admin::AdminUsersController < Admin::BaseAdminController
     @user = User.new(user_params)
     if @user.save
     # Saves successfully
+      @user.generate_email_token
+      @user.email_token_to_user
       redirect_to action: :index
     else
     # Error saving user
