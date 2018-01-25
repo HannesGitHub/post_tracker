@@ -1,6 +1,11 @@
 <section class="content-header">
   <h1>
-    Trackings
+    <%
+      description = 'Active trackings'
+      description = 'Failed trackings' if request.path.include?('failed')
+      description = 'Completed trackings' if request.path.include?('completed')
+    %>
+    <%= description %>
     <small>
       <!--Put text here if you want it to display small-->
     </small>
@@ -39,7 +44,7 @@
                   <td><%= tracking.latest_status %></td>
                   <td>
                     <div class="btn-group">
-                      <a class="btn btn-xs btn-success btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="Mark as completed">
+                      <a class="btn btn-xs btn-success btn-fill" data-toggle="tooltip" href="<%= users_mark_completed_path(tracking.id) %>" title="Mark as completed">
                         <i class="ace-icon fa fa-check bigger-120"></i>
                       </a>
                       <a id="btn-history-clicked" class="btn btn-xs btn-warning btn-fill" type="button" data-toggle="tooltip" title="View tracking history" tracking_id="<%= tracking.id %>">

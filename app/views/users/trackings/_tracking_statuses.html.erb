@@ -1,1 +1,14 @@
-<h1>Test</h1>
+<table class="default-table">
+  <tr>
+    <th>Date</th>
+    <th>Description</th>
+    <th>Details</th>
+  </tr>
+  <% @tracking.tracking_statuses.each do |s| %>
+      <tr>
+        <td><%= s.date %></td>
+        <td><%= s.description %></td>
+        <td><%= s.details %></td>
+      </tr>
+  <% end %>
+</table>

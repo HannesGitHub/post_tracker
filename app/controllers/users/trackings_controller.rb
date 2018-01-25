@@ -1,6 +1,16 @@
 class Users::TrackingsController < Users::BaseUsersController
   def index
-    @trackings = Tracking.active_scope
+    @trackings = Tracking.active_and_ongoing
+  end
+
+  def completed_trackings
+    @trackings = Tracking.completed
+    render 'index'
+  end
+
+  def failed_trackings
+    @trackings = Tracking.failed
+    render 'index'
   end
 
   def create
@@ -26,6 +36,13 @@ class Users::TrackingsController < Users::BaseUsersController
     end
   end
 
+  def mark_completed
+    tracking = Tracking.find(params[:id])
+    tracking.is_completed = true
+    tracking.save
+    redirect_to action: :index
+  end
+
   def new
     @description = 'Add tracking'
     @tracking = Tracking.new
@@ -48,6 +65,7 @@ class Users::TrackingsController < Users::BaseUsersController
   end
 
   def statuses
+    @tracking = Tracking.find(params[:id])
     render partial: 'tracking_statuses'
   end
 

@@ -40,3 +40,19 @@
 .button-section div{
     height:35px;
 }
+
+//Default table non datatable
+table.default-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.default-table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.default-table tr:nth-child(even) {
+  background-color: #dddddd;
+}

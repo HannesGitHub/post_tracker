@@ -32,7 +32,6 @@ class TrackMoreCommunication
   end
 
   private
-
   def set_success_status_with_parser(tracking, parser)
     tracking.tracking_status = "Success"
     if !parser.status.blank?
@@ -40,7 +39,7 @@ class TrackMoreCommunication
     end
     # Loop through statuses and create and attach new ones to the tracking.
     parser.statuses.each do |s|
-      tracking.tracking_statuses.create(date: s[:date], description: s[:description], details: s[:details])
+      tracking.tracking_statuses.create(date: s[:date], description: s[:status_description], details: s[:details])
     end
 
     tracking.save

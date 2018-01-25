@@ -37,12 +37,15 @@ Rails.application.routes.draw do
     root 'users_dashboard#index'
     controller :trackings do
       get 'trackings' => :index
+      get 'completed_trackings' => :completed_trackings, as: 'completed_trackings'
+      get 'failed_trackings' => :failed_trackings, as: 'failed_trackings'
       get 'trackings/new' => :new
       post 'trackings/create' => :create
       get 'trackings/:id/show' => :show
       get 'trackings/:id/edit' => :edit, as: 'edit_tracking'
       patch 'trackings/update' => :update
       get 'trackings/:id/delete' => :delete, as: 'delete_tracking'
+      get 'trackings/:id/mark_as_completed' => :mark_completed, as: 'mark_completed'
 
       #   Trackings AJAX routes
       get 'trackings/:id/get_statuses' => :statuses, as: 'tracking_statuses'

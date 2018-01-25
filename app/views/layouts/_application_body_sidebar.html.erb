@@ -28,15 +28,26 @@
   <!-- /.search form -->
   <!-- sidebar menu: : style can be found in sidebar.less -->
   <ul class="sidebar-menu">
-    <li class="header">MAIN NAVIGATIONs</li>
+    <li class="header">Main navigation</li>
     <li>
       <a href="<%= users_root_url %>">
         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
       </a>
     </li>
+    <li class="header">Trackings</li>
     <li>
       <a href="<%= users_trackings_url %>">
-        <i class="fa fa-users"></i> <span>Active trackings</span>
+        <i class="fa fa-pencil-square-o"></i> <span>Active</span>
+      </a>
+    </li>
+    <li>
+      <a href="<%= users_completed_trackings_path %>">
+        <i class="fa fa-check-square-o"></i> <span>Completed</span>
+      </a>
+    </li>
+    <li>
+      <a href="<%= users_failed_trackings_url %>">
+        <i class="fa fa-times"></i> <span>Failed</span>
       </a>
     </li>
 
