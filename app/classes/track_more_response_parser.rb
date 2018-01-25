@@ -6,7 +6,7 @@ class TrackMoreResponseParser
                 :tracking_number,
                 :carrier_code,
                 :status,
-                :track_info
+                :statuses
 
   def initialize(response)
     self.request_response_code = response.code
@@ -14,7 +14,7 @@ class TrackMoreResponseParser
   end
 
   def latest_status
-    self.track_info.present? ? self.track_info.first : nil
+    self.statuses.present? ? self.statuses.first : nil
   end
 
   private
@@ -26,10 +26,10 @@ class TrackMoreResponseParser
     self.tracking_number = hash[:data][:tracking_number] if hash[:data].present?
     self.carrier_code = hash[:data][:carrier_code] if hash[:data].present?
     self.status = hash[:data][:status] if hash[:data].present?
-    self.track_info = get_track_info(hash[:data][:origin_info][:trackinfo]) if hash[:data].present?
+    self.statuses = set_statuses(hash[:data][:origin_info][:trackinfo]) if hash[:data].present?
   end
 
-  def get_track_info(info)
+  def set_statuses(info)
     return_info = []
     info.each do |track_info|
       obj = {date: track_info[:Date], status_description: track_info[:StatusDescription], details: track_info[:Details]}

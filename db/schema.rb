@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180123205413) do
+ActiveRecord::Schema.define(version: 20180125193128) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "tracking_statuses", force: :cascade do |t|
+    t.string "date"
+    t.string "description"
+    t.string "details"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "tracking_id"
+  end
 
   create_table "trackings", force: :cascade do |t|
     t.string "tracking_number"
@@ -43,5 +52,6 @@ ActiveRecord::Schema.define(version: 20180123205413) do
     t.boolean "is_admin", default: false
   end
 
+  add_foreign_key "tracking_statuses", "trackings"
   add_foreign_key "trackings", "users"
 end
