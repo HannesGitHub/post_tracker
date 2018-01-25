@@ -46,9 +46,8 @@ class TrackMoreCommunication
   end
   def set_failiure_status(tracking, status)
     tracking.tracking_status = status
+    tracking.failed = true
     tracking.save
   end
-
-
 
 end
