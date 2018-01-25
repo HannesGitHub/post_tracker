@@ -7,7 +7,7 @@ class Users::TrackingsController < Users::BaseUsersController
     @tracking = Tracking.new(tracking_params)
     if @tracking.save
       # Register tracking on trackmore website and handle response that is received from trackmore website.
-      track_more_api.register_tracking(tracking_params[:tracking_number], @tracking)
+      TrackMoreWorker.perform_async(track_more_api.register_tracking(tracking_params[:tracking_number], @tracking))
       # Saves successfully
       redirect_to action: :index
     else
@@ -45,6 +45,10 @@ class Users::TrackingsController < Users::BaseUsersController
     @tracking.is_active = false
     @tracking.save
     redirect_to users_trackings_url
+  end
+
+  def statuses
+    render partial: 'tracking_statuses'
   end
 
   private

@@ -12,13 +12,6 @@ class TrackMoreCommunication
     }
   end
 
-  # def register_tracking(tracking_number)
-  #   TrackMoreWorker.perform_async() #Task that performs the http request to track more.)
-  # #   Todo: When this responds success/not success, update the tracking in the database.
-  #
-  #
-  # end
-
   def register_tracking(tracking_number, tracking_record)
     response = self.class.get("/trackings/south-africa-post/#{tracking_number}", headers: self.headers)
     if response.success?
@@ -38,6 +31,4 @@ class TrackMoreCommunication
       raise response.response
     end
   end
-
-
 end

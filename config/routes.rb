@@ -36,13 +36,16 @@ Rails.application.routes.draw do
   namespace 'users' do
     root 'users_dashboard#index'
     controller :trackings do
-    get 'trackings' => :index
+      get 'trackings' => :index
       get 'trackings/new' => :new
-    post 'trackings/create' => :create
-    get 'trackings/:id/show' => :show
+      post 'trackings/create' => :create
+      get 'trackings/:id/show' => :show
       get 'trackings/:id/edit' => :edit, as: 'edit_tracking'
       patch 'trackings/update' => :update
       get 'trackings/:id/delete' => :delete, as: 'delete_tracking'
+
+      #   Trackings AJAX routes
+      get 'trackings/:id/get_statuses' => :statuses, as: 'tracking_statuses'
     end
   end
 

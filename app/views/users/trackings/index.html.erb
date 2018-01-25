@@ -25,7 +25,8 @@
               <th>Tracking number</th>
               <th>Description</th>
               <th>Api status</th>
-              <th>Latest tracking status</th>
+              <th>Tracking status</th>
+              <th>Options</th>
               <th>Actions</th>
             </tr>
             </thead>
@@ -36,6 +37,19 @@
                   <td><%= tracking.description %></td>
                   <td><%= tracking.tracking_status %></td>
                   <td><%= tracking.latest_status %></td>
+                  <td>
+                    <div class="btn-group">
+                      <a class="btn btn-xs btn-success btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="Mark as completed">
+                        <i class="ace-icon fa fa-check bigger-120"></i>
+                      </a>
+                      <a id="btn-history-clicked" class="btn btn-xs btn-warning btn-fill" type="button" data-toggle="tooltip" title="View tracking history" tracking_id="<%= tracking.id %>">
+                        <i class="ace-icon fa fa-history bigger-120"></i>
+                      </a>
+                      <a class="btn btn-xs btn-primary btn-fill" type="button" href=<%= users_edit_tracking_path(tracking.id) %> data-toggle="tooltip" title="Download pdf">
+                        <i class="ace-icon fa fa-file-pdf-o bigger-120"></i>
+                      </a>
+                    </div>
+                  </td>
                   <td>
                     <div class="btn-group">
                       <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="View">
@@ -57,7 +71,8 @@
               <th>Tracking number</th>
               <th>Description</th>
               <th>Api status</th>
-              <th>Latest tracking status</th>
+              <th>Tracking status</th>
+              <th>Options</th>
               <th>Actions</th>
             </tr>
             </tfoot>
