@@ -14,6 +14,7 @@ module TrackingStatusUpdateable
     end
 
     tracking.save
+    tracking
   end
   def set_failiure_status(tracking, status)
     tracking.tracking_status = status

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8530d327-3102-41c0-9a8f-d9efdadc385a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump.rdb" afterPath="$PROJECT_DIR$/dump.rdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/classes/decision.rb" afterPath="$PROJECT_DIR$/app/classes/decision.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/classes/track_more_communication.rb" afterPath="$PROJECT_DIR$/app/classes/track_more_communication.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/classes/track_more_response_parser.rb" afterPath="$PROJECT_DIR$/app/classes/track_more_response_parser.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" afterPath="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -28,21 +23,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="track_more_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="track_more_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="285">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tracking_status_updateable.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="decision.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracking_status_updateable.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -202,12 +207,12 @@
         <option value="$PROJECT_DIR$/db/migrate/20180129185421_add_config_to_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/classes/decisioning.rb" />
-        <option value="$PROJECT_DIR$/app/classes/decision.rb" />
         <option value="$PROJECT_DIR$/lib/modules/tracking_status_updatable.rb" />
         <option value="$PROJECT_DIR$/app/classes/track_more_communication.rb" />
         <option value="$PROJECT_DIR$/app/classes/track_more_response_parser.rb" />
-        <option value="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
         <option value="$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb" />
+        <option value="$PROJECT_DIR$/app/classes/decision.rb" />
+        <option value="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
       </list>
     </option>
   </component>
@@ -723,12 +728,12 @@
       <workItem from="1515537639826" duration="13241000" />
       <workItem from="1516128187166" duration="46000" />
       <workItem from="1516128237478" duration="15217000" />
-      <workItem from="1516646364886" duration="30201000" />
+      <workItem from="1516646364886" duration="30346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116105000" />
+    <option name="totallyTimeSpent" value="116250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +803,7 @@
           <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="167" />
+      <option name="time" value="169" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
@@ -1127,14 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/user_module.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1199,18 +1196,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="260">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
