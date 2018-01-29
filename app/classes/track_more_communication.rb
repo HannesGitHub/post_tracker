@@ -1,6 +1,7 @@
 class TrackMoreCommunication
 
   include HTTParty
+  include TrackingStatusUpdateable
 
   attr_accessor :headers
   base_uri 'api.trackingmore.com/v2'
@@ -16,12 +17,11 @@ class TrackMoreCommunication
     response = self.class.get("/trackings/south-africa-post/#{tracking_number}", headers: self.headers)
     if response.success?
       # Response.code was 200
-      parser = TrackMoreResponseParser.new(response)
+      parser = TrackMoreResponseParser.new(response, response.code)
       if parser.body_response_code == 200
         #   Successfully added ticket
         set_success_status_with_parser(tracking_record, parser)
-      #   Todo: Send tracking throug Decision...
-      #   Might have to change here, not sure if the statuses are being returned into the tracking_record object.
+        # Here we create a decision that handles whether and when a user should receive an email.
         decision = Decision.new(tracking_record)
         decision.deliver_user_notifications
       else
@@ -33,25 +33,6 @@ class TrackMoreCommunication
       set_failiure_status(tracking_record, "Tracking failed with status code #{response.code}")
       # raise response.response
     end
-  end
-
-  private
-  def set_success_status_with_parser(tracking, parser)
-    tracking.tracking_status = "Success"
-    if !parser.status.blank?
-      tracking.latest_status = "#{parser.latest_status[:status_description]} - #{parser.latest_status[:details]}"
-    end
-    # Loop through statuses and create and attach new ones to the tracking.
-    parser.statuses.each do |s|
-      tracking.tracking_statuses.create(date: s[:date], description: s[:status_description], details: s[:details])
-    end
-
-    tracking.save
-  end
-  def set_failiure_status(tracking, status)
-    tracking.tracking_status = status
-    tracking.failed = true
-    tracking.save
   end
 
 end

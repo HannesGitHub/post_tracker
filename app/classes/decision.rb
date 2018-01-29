@@ -22,7 +22,6 @@ class Decision
     end
   end
 
-
   private
 
   def process
@@ -32,5 +31,4 @@ class Decision
       end
     end
   end
-
 end
