@@ -8,8 +8,9 @@ class Tracking < ApplicationRecord
   scope :completed, -> { where(is_completed: true).where(failed: false).where(is_active: true) }
   scope :failed, -> { where(failed: true).where(is_active: true) }
 
+  validates :user_id,
+            :tracking_number,
+            presence: true
   validates :tracking_number,
-            :user_id,
-            presence: true,
             uniqueness: true
 end
