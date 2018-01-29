@@ -10,7 +10,6 @@ class Tracking < ApplicationRecord
 
   validates :tracking_number,
             :user_id,
-            presence: true
-
-
+            presence: true,
+            uniqueness: true
 end
