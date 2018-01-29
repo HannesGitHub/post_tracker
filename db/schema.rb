@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180125210912) do
+ActiveRecord::Schema.define(version: 20180129185421) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "configurations", force: :cascade do |t|
+    t.string "notification_setting", default: "first_notification_to_recipient"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "tracking_statuses", force: :cascade do |t|
     t.string "date"
@@ -33,7 +40,6 @@ ActiveRecord::Schema.define(version: 20180125210912) do
     t.string "description"
     t.string "tracking_status"
     t.string "latest_status"
-    t.boolean "completed", default: false
     t.boolean "failed", default: false
     t.boolean "is_completed", default: false
   end
@@ -55,6 +61,7 @@ ActiveRecord::Schema.define(version: 20180125210912) do
     t.boolean "is_admin", default: false
   end
 
+  add_foreign_key "configurations", "users"
   add_foreign_key "tracking_statuses", "trackings"
   add_foreign_key "trackings", "users"
 end

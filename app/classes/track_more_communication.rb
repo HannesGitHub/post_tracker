@@ -20,6 +20,10 @@ class TrackMoreCommunication
       if parser.body_response_code == 200
         #   Successfully added ticket
         set_success_status_with_parser(tracking_record, parser)
+      #   Todo: Send tracking throug Decision...
+      #   Might have to change here, not sure if the statuses are being returned into the tracking_record object.
+        decision = Decision.new(tracking_record)
+        decision.deliver_user_notifications
       else
         # Response was successfull but the data failed somewhere.
         set_failiure_status(tracking_record,"Tracking failed with status code #{parser.body_response_code}")

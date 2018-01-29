@@ -25,7 +25,6 @@ class Login::WelcomeController < ApplicationController
       #   remember me was ticked
         @user.remember_token = encrypt_token(token)
         @user.save
-        # Todo: Do a check what type of user this is and redirect according to that.
         if @user.is_admin?
           redirect_to '/admin/users'
         else

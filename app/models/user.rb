@@ -3,9 +3,10 @@ class User < ApplicationRecord
   include UserModule
   include EmailModule
 
-  before_create :generate_auth_token
+  before_create :generate_auth_token, :generate_configuration
 
   has_many :trackings
+  has_one :configuration
 
   attr_accessor :confirm_password
   scope :active_scope, -> { where(is_active: true).where.not(email: 'admin@gmail.com') }
@@ -27,5 +28,9 @@ class User < ApplicationRecord
         self.auth_token = SecureRandom.hex
       end while self.class.exists?(auth_token: auth_token)
     end
+  end
+
+  def generate_configuration
+    self.configuration = Configuration.new()
   end
 end
