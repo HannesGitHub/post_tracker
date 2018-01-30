@@ -7,6 +7,7 @@ class User < ApplicationRecord
 
   has_many :trackings
   has_one :configuration
+  accepts_nested_attributes_for :configuration
 
   attr_accessor :confirm_password
   scope :active_scope, -> { where(is_active: true).where.not(email: 'admin@gmail.com') }

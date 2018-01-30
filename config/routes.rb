@@ -51,6 +51,9 @@ Rails.application.routes.draw do
       #   Trackings AJAX routes
       get 'trackings/:id/get_statuses' => :statuses, as: 'tracking_statuses'
     end
+    controller :active_user do
+      patch 'update_user_settings' => :update_user_settings, as: 'update_user_settings'
+    end
   end
 
   namespace 'track_more' do
