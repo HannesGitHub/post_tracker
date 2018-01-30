@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8530d327-3102-41c0-9a8f-d9efdadc385a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/users/active_user_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_user_details_popout_partial.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump.rdb" afterPath="$PROJECT_DIR$/dump.rdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_application_body_header_partial.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_application_body_header_partial.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/classes/decision.rb" afterPath="$PROJECT_DIR$/app/classes/decision.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,41 +24,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_user_details_popout_partial.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_user_details_popout_partial.html.erb">
+      <file leaf-file-name="track_more_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+            <state relative-caret-position="165">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="active_user_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users/active_user_controller.rb">
+      <file leaf-file-name="decision.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -73,7 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app</find>
       <find>applicatio</find>
       <find>application_</find>
       <find>applica</find>
@@ -103,6 +77,7 @@
       <find>form_for</find>
       <find>.</find>
       <find>.dropdown-menu</find>
+      <find>deliver_user_notifications</find>
     </findStrings>
     <replaceStrings>
       <replace>draw_columns</replace>
@@ -153,7 +128,6 @@
         <option value="$PROJECT_DIR$/app/classes/track_more_communication.rb" />
         <option value="$PROJECT_DIR$/app/classes/track_more_response_parser.rb" />
         <option value="$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb" />
-        <option value="$PROJECT_DIR$/app/classes/decision.rb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/app/models/tracking.rb" />
         <option value="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
@@ -165,10 +139,11 @@
         <option value="$PROJECT_DIR$/app/views/admin/landing_page/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_application_body_header_partial.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_user_details_popout_partial.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users/active_user_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/classes/decision.rb" />
       </list>
     </option>
   </component>
@@ -341,7 +316,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;applicationcontrol&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;application_controller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;userscontroller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;welcom&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;User.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;applicationcon&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;application.&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;Tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;tracking_controller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;base_users&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;ApplicationController&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;application&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gemfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;base_user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;tracking_controller.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;welcomecon&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;production&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;procfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Procfile&#10;proc&#9;FILE&#9;file:///Applications/RubyMine.app/Contents/rubystubs24/proc.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/capybara-2.16.1/lib/capybara/config.rb&#10;.env&#9;null&#9;null&#10;database.yml&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/database.yml&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;production.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;development&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;layout/&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/views/layouts&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
+    <property name="SearchEverywhereHistoryKey" value="application&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;Decision.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/classes/decision.rb&#10;user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;applicationcontrol&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;application_controller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;userscontroller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;welcom&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;User.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;applicationcon&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;application.&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;Tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;tracking_controller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;base_users&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;ApplicationController&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;gemfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;base_user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;tracking_controller.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;welcomecon&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;production&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;procfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Procfile&#10;proc&#9;FILE&#9;file:///Applications/RubyMine.app/Contents/rubystubs24/proc.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/capybara-2.16.1/lib/capybara/config.rb&#10;.env&#9;null&#9;null&#10;database.yml&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/database.yml&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;production.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;development&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;layout/&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/views/layouts&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -598,12 +573,12 @@
       <workItem from="1515537639826" duration="13241000" />
       <workItem from="1516128187166" duration="46000" />
       <workItem from="1516128237478" duration="15217000" />
-      <workItem from="1516646364886" duration="40529000" />
+      <workItem from="1516646364886" duration="40785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126433000" />
+    <option name="totallyTimeSpent" value="126689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +603,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39252338" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42056075" sideWeight="0.48707592" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42056075" sideWeight="0.48707592" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -677,8 +652,13 @@
           <line>11</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/classes/decision.rb</url>
+          <line>23</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="195" />
+      <option name="time" value="197" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
@@ -847,14 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -891,14 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1073,16 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_user_details_popout_partial.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1091,6 +1047,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>

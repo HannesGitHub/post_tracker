@@ -19,6 +19,11 @@ class Decision
           #   Todo: Send email
           asdf = 2
         end
+      when 'all_updates'
+    #     Todo: Send email
+        asdf = 3
+      else
+    #     Do nothing
     end
   end
 
