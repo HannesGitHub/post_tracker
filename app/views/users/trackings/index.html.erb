@@ -44,15 +44,23 @@
                   <td><%= tracking.latest_status %></td>
                   <td>
                     <div class="btn-group">
-                      <a class="btn btn-xs btn-success btn-fill" data-toggle="tooltip" href="<%= users_mark_completed_path(tracking.id) %>" title="Mark as completed">
-                        <i class="ace-icon fa fa-check bigger-120"></i>
-                      </a>
-                      <a id="btn-history-clicked" class="btn btn-xs btn-warning btn-fill" type="button" data-toggle="tooltip" title="View tracking history" tracking_id="<%= tracking.id %>">
-                        <i class="ace-icon fa fa-history bigger-120"></i>
-                      </a>
-                      <a class="btn btn-xs btn-primary btn-fill" type="button" href=<%= users_edit_tracking_path(tracking.id) %> data-toggle="tooltip" title="Download pdf">
-                        <i class="ace-icon fa fa-file-pdf-o bigger-120"></i>
-                      </a>
+                      <% if request.path.include?('failed') %>
+                          <a class="btn btn-xs btn-warning btn-fill" data-toggle="tooltip" href="<%= users_retry_tracking_path(tracking.id) %>" title="Retry tracking">
+                            <i class="ace-icon fa fa-reply bigger-120"></i>
+                          </a>
+                      <% else %>
+                          <% unless request.path.include?('complete') %>
+                              <a class="btn btn-xs btn-success btn-fill" data-toggle="tooltip" href="<%= users_mark_completed_path(tracking.id) %>" title="Mark as completed">
+                                <i class="ace-icon fa fa-check bigger-120"></i>
+                              </a>
+                          <% end %>
+                          <a id="btn-history-clicked" class="btn btn-xs btn-warning btn-fill" type="button" data-toggle="tooltip" title="View tracking history" tracking_id="<%= tracking.id %>">
+                            <i class="ace-icon fa fa-history bigger-120"></i>
+                          </a>
+                          <a class="btn btn-xs btn-primary btn-fill" type="button" href=<%= users_edit_tracking_path(tracking.id) %> data-toggle="tooltip" title="Download pdf">
+                            <i class="ace-icon fa fa-file-pdf-o bigger-120"></i>
+                          </a>
+                      <% end %>
                     </div>
                   </td>
                   <td>
@@ -60,9 +68,11 @@
                       <a class="btn btn-xs btn-info btn-fill" data-toggle="tooltip" href="/users/trackings/<%= tracking.id %>/show" title="View">
                         <i class="ace-icon fa fa-eye bigger-120"></i>
                       </a>
-                      <a class="btn btn-xs btn-success btn-fill" type="button" href=<%= users_edit_tracking_path(tracking.id) %> data-toggle="tooltip" title="Edit">
-                        <i class="ace-icon fa fa-pencil bigger-120"></i>
-                      </a>
+                      <% unless request.path.include?('complete') %>
+                          <a class="btn btn-xs btn-success btn-fill" type="button" href=<%= users_edit_tracking_path(tracking.id) %> data-toggle="tooltip" title="Edit">
+                            <i class="ace-icon fa fa-pencil bigger-120"></i>
+                          </a>
+                      <% end %>
                       <button type="button" class="btn btn-xs btn-danger btn-fill confirm-delete" data-toggle="modal" data-target="#myModal" delete-link=<%= users_delete_tracking_path(id: tracking.id) %>>
                         <i class="ace-icon fa fa-trash-o bigger-120"></i>
                       </button>

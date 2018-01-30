@@ -46,6 +46,7 @@ Rails.application.routes.draw do
       patch 'trackings/update' => :update
       get 'trackings/:id/delete' => :delete, as: 'delete_tracking'
       get 'trackings/:id/mark_as_completed' => :mark_completed, as: 'mark_completed'
+      get 'trackings/:id/retry_tracking' => :retry_tracking, as: 'retry_tracking'
 
       #   Trackings AJAX routes
       get 'trackings/:id/get_statuses' => :statuses, as: 'tracking_statuses'

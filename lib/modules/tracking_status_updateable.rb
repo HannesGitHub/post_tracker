@@ -12,7 +12,7 @@ module TrackingStatusUpdateable
     parser.statuses.each do |s|
       tracking.tracking_statuses.create(date: s[:date], description: s[:status_description], details: s[:details])
     end
-
+    tracking.failed = false
     tracking.save
     tracking
   end

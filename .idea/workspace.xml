@@ -4,7 +4,10 @@
     <list default="true" id="8530d327-3102-41c0-9a8f-d9efdadc385a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump.rdb" afterPath="$PROJECT_DIR$/dump.rdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/tracking.rb" afterPath="$PROJECT_DIR$/app/models/tracking.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users/trackings_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users/trackings_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/trackings/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/trackings/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" afterPath="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -19,23 +22,75 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/post_tracker@Development__post_tracker.coverage" NAME="Development: post_tracker Coverage Results" MODIFIED="1517257505691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="post_tracker" />
+    <SUITE FILE_PATH="coverage/post_tracker@Development__post_tracker.coverage" NAME="Development: post_tracker Coverage Results" MODIFIED="1517332076548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="post_tracker" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trackings_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users/trackings_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="track_more_communication.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/classes/track_more_communication.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracking_status_updateable.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="track_more_response_parser.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/classes/track_more_response_parser.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/users/trackings/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>develo</find>
-      <find>develop</find>
-      <find>hannesdevelop@gmail.co</find>
-      <find>hannesdevelop@gmail.c</find>
-      <find>hannesdevelop@gmail.</find>
-      <find>hannesdevelop@gmail</find>
-      <find>hannesdevelop@gmai</find>
-      <find>hannesdevelop@gmail.com</find>
-      <find>16b12b.ngrok.io</find>
       <find>502d74f-d536-4e97-8731-82822b89</find>
       <find>502d74f-d536-4e97-8731-82822b89502d74f-d536-4e97-8731-82822b89</find>
       <find>a</find>
@@ -47,8 +102,6 @@
       <find>key</find>
       <find>http</find>
       <find>511a894-56ea-445e-9f55-de</find>
-      <find>ha</find>
-      <find>hannesde</find>
       <find>hannesdeve</find>
       <find>register_tracking</find>
       <find>hannede</find>
@@ -57,6 +110,17 @@
       <find>hannesdevelop</find>
       <find>tracking</find>
       <find>tracking number</find>
+      <find>ha</find>
+      <find>hannesd</find>
+      <find>hannesde</find>
+      <find>ma</find>
+      <find>mark</find>
+      <find>mark_</find>
+      <find>mark_com</find>
+      <find>mark_compl</find>
+      <find>mark_comple</find>
+      <find>mark_completed</find>
+      <find>.tracking_user = tracking_record.us</find>
     </findStrings>
     <replaceStrings>
       <replace>draw_columns</replace>
@@ -106,10 +170,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20180125205124_add_completed_to_trackings.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180125205343_add_failed_to_trackings.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_application_body_sidebar.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/trackings/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180125210912_add_is_completed_to_tracking.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users/trackings_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/login/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/configuration.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180129185421_add_config_to_users.rb" />
@@ -120,9 +181,12 @@
         <option value="$PROJECT_DIR$/app/classes/track_more_response_parser.rb" />
         <option value="$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb" />
         <option value="$PROJECT_DIR$/app/classes/decision.rb" />
-        <option value="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/app/models/tracking.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users/trackings_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/trackings/index.html.erb" />
       </list>
     </option>
   </component>
@@ -267,6 +331,112 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trackings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post_tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -297,7 +467,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;application.&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;Tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;tracking_controller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;base_users&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;ApplicationController&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;application&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gemfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;base_user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;tracking_controller.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;welcomecon&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;production&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;procfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Procfile&#10;proc&#9;FILE&#9;file:///Applications/RubyMine.app/Contents/rubystubs24/proc.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/capybara-2.16.1/lib/capybara/config.rb&#10;.env&#9;null&#9;null&#10;database.yml&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/database.yml&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;production.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;development&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;layout/&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/views/layouts&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
+    <property name="SearchEverywhereHistoryKey" value="routes.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;user.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;application.&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;Tracking.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/tracking.rb&#10;welcome&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;tracking_controller&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;base_users&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;ApplicationController&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/application_controller.rb&#10;seeds.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;application&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gemfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;base_user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/base_users_controller.rb&#10;tracking_controller.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/users/trackings_controller.rb&#10;routes&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/routes.rb&#10;welcomecon&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/controllers/login/welcome_controller.rb&#10;production&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;procfile&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Procfile&#10;proc&#9;FILE&#9;file:///Applications/RubyMine.app/Contents/rubystubs24/proc.rb&#10;application.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;config.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/capybara-2.16.1/lib/capybara/config.rb&#10;.env&#9;null&#9;null&#10;database.yml&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/database.yml&#10;seeds&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/db/seeds.rb&#10;production.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/production.rb&#10;development&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;layout/&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/views/layouts&#10;config/deve&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/en&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/environments/development.rb&#10;config/applica&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;gem&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile&#10;user&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/models/user.rb&#10;config/app&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/application.rb&#10;assets.rb&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/config/initializers/assets.rb&#10;gems.rb&#9;FILE&#9;file:///Users/Hannes/.rvm/gems/ruby-2.4.0@post_tracker/gems/bundler-1.16.1/lib/bundler/templates/gems.rb&#10;application.js&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/app/assets/javascripts/application.js&#10;gemfile.lo&#9;FILE&#9;file:///Users/Hannes/personal_workspace/post_tracker/Gemfile.lock" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -554,12 +724,12 @@
       <workItem from="1515537639826" duration="13241000" />
       <workItem from="1516128187166" duration="46000" />
       <workItem from="1516128237478" duration="15217000" />
-      <workItem from="1516646364886" duration="31898000" />
+      <workItem from="1516646364886" duration="33537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117802000" />
+    <option name="totallyTimeSpent" value="119441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,8 +742,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="23" width="1280" height="708" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34087238" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34087238" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42056075" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -583,7 +754,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39252338" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42056075" sideWeight="0.49030694" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42056075" sideWeight="0.49030694" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -627,13 +798,8 @@
           <line>19</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/classes/track_more_response_parser.rb</url>
-          <line>24</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="177" />
+      <option name="time" value="180" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
@@ -642,14 +808,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/admin_users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_admin_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -770,34 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/trackings/_tracking_statuses.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_application_body_sidebar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="47" column="62" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/trackings/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="46" column="134" lean-forward="false" selection-start-line="46" selection-start-column="134" selection-end-line="46" selection-end-column="134" />
           <folding />
         </state>
       </provider>
@@ -970,10 +1104,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0@post_tracker/gems/actionpack-5.1.4/lib/action_controller/metal/strong_parameters.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/trackings/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="1066" column="0" lean-forward="false" selection-start-line="1066" selection-start-column="0" selection-end-line="1066" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -986,66 +1136,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/track_more/track_more_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/trackings/_tracking_statuses.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="48" column="80" lean-forward="false" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0@post_tracker/gems/actionpack-5.1.4/lib/action_controller/metal/strong_parameters.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="1066" column="0" lean-forward="false" selection-start-line="1066" selection-start-column="0" selection-end-line="1066" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/tracking.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/classes/track_more_response_parser.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users/trackings_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state relative-caret-position="87">
+          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/classes/track_more_communication.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="302">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/tracking_status_updateable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/classes/decision.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/classes/track_more_response_parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/trackings/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
           <folding />
         </state>
       </provider>

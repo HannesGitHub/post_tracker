@@ -36,6 +36,12 @@ class Users::TrackingsController < Users::BaseUsersController
     end
   end
 
+  def retry_tracking
+    tracking = Tracking.find(params[:id])
+    TrackMoreWorker.perform_async(track_more_api.register_tracking(tracking.tracking_number, tracking))
+    redirect_to action: :index
+  end
+
   def mark_completed
     tracking = Tracking.find(params[:id])
     tracking.is_completed = true
