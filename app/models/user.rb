@@ -19,6 +19,9 @@ class User < ApplicationRecord
             :email,
             presence: true
 
+  def name_and_surname
+    "#{self.name} #{self.surname}"
+  end
 
   private
   def generate_auth_token

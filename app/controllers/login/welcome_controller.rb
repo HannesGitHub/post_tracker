@@ -1,7 +1,5 @@
 class Login::WelcomeController < ApplicationController
 
-  SALT_VAL = '$2a$10$LH.HAI7A6kAVfrXlIUc9Ee'
-
   def landing
 
   end

@@ -5,8 +5,6 @@ class Users::BaseUsersController < ApplicationController
 
   attr_accessor :track_more_api
 
-  SALT_VAL = '$2a$10$LH.HAI7A6kAVfrXlIUc9Ee'
-
   private
 
   def check_authorization

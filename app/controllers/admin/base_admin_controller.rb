@@ -2,8 +2,6 @@ class Admin::BaseAdminController < ApplicationController
   layout 'admin_layout'
   before_action :check_authorization
 
-  SALT_VAL = '$2a$10$LH.HAI7A6kAVfrXlIUc9Ee'
-
   private
 
   def check_authorization
